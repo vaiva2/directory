@@ -13,6 +13,7 @@
 
     h1 {
       margin-bottom: 1rem;
+      letter-spacing: 1rem;
     }
 
     .last-updated {
@@ -21,4 +22,8 @@
         color: var(--text-light);
         font-family: var(--mono-font);
     }
+  }
+
+  footer {
+    letter-spacing: 0.3rem;
   }
