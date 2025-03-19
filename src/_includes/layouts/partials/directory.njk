@@ -12,42 +12,15 @@
     </thead>
 
     <tbody>
-        <!-- MY SUBDOMAINS -->
+        {% for site in directory.subdomains %}
         <tr>
-            <td><a class="link" href="https://vaiva.space/">vaiva.space</a></td>
-            <td><div class="color-block" style="background-color: blueviolet;" /></td>
-            <td class="center-align">2025</td>
-            <td class="center-align">spaceship</td>
-            <td>always a work in progress, my own slice of a slower, sweeter internet</td>
+            <td><a class="link" href="{{ site.url }}">{{ site.domain }}</a></td>
+            <td><div class="color-block" style="background-color: {{ site.feel }};"></div></td>
+            <td class="center-align">{{ site.year }}</td>
+            <td class="center-align">{{ site.function }}</td>
+            <td>{{ site.description }}</td>
         </tr>
-        <tr>
-            <td><a class="link" href="https://2025present.vaiva.space/">2025present.vaiva.space</a></td>
-            <td><div class="color-block" style="background-color: rgb(43, 226, 153);" /></td>
-            <td class="center-align">2025</td>
-            <td class="center-align">daily collage archive</td>
-            <td>digital entropy collages composed of bookmarks, screenshots, grocery lists, doodles, photos</td>
-        </tr>
-        <tr>
-            <td><a class="link" href="https://directory.vaiva.space/">directory.vaiva.space</a></td>
-            <td><div class="color-block" style="background-color: rgb(43, 52, 226);" /></td>
-            <td class="center-align">2025</td>
-            <td class="center-align">index of my sites</td>
-            <td>you can always find your way back home</td>
-        </tr>
-        <tr>
-            <td><a class="link" href="https://snakke.vaiva.space/">snakke.vaiva.space</a></td>
-            <td><div class="color-block" style="background-color: rgb(226, 43, 43);" /></td>
-            <td class="center-align">2025</td>
-            <td class="center-align">mini blog</td>
-            <td>small-form blogging format for me to post updates on my studies, work, projects, daily life, whatever comes to mind</td>
-        </tr>
-        <tr>
-            <td><a class="link" href="http://lilletempleventy.vaiva.space/">lilletempleventy.vaiva.space</a></td>
-            <td><div class="color-block" style="background-color: rgb(44, 23, 23);" /></td>
-            <td class="center-align">2025</td>
-            <td class="center-align">custom template</td>
-            <td>open-source, bare-bones, static-site gen template i made to fit my needs. it's versatile yet simple with no bells and whistles, just the way the digital overseers intended</td>
-        </tr>
+        {% endfor %}
 
         <!-- ghost!!! -->
         <tr class="ghost">
@@ -58,28 +31,15 @@
             <td>placeholder</td>
         </tr>
 
-        <!-- MY PROFESSIONAL PROJECTS -->
-         <tr>
-            <td><a class="link" href="https://qtatax.com/">qtatax.com</a></td>
-            <td></td>
-            <td class="center-align">2023</td>
-            <td class="center-align">tax services</td>
-            <td><em>@freelance</em> // recreated existing wordpress site using react in order to prioritize speed and SEO</td>
-         </tr>
-         <tr>
-            <td><a class="link" href="https://www.calcpa.org/">calcpa.org</a></td>
-            <td></td>
-            <td class="center-align">2023</td>
-            <td class="center-align">accounting, education</td>
-            <td><em>@creative agency</em></td>
-         </tr>
+        {% for project in directory.projects %}
         <tr>
-            <td><a class="link" href="https://www.kadena.io/">kadena.io</a></td>
+            <td><a class="link" href="{{ project.url }}">{{ project.domain }}</a></td>
             <td></td>
-            <td class="center-align">2024</td>
-            <td class="center-align">blockchain</td>
-            <td><em>@creative agency</em></td>
+            <td class="center-align">{{ project.year }}</td>
+            <td class="center-align">{{ project.function }}</td>
+            <td>{{ project.description }}</td>
         </tr>
+        {% endfor %}
 
         <!-- ghost!!! -->
         <tr class="ghost">
@@ -90,27 +50,14 @@
             <td>placeholder</td>
         </tr>
 
-        <!-- MY SOCIALS OR WHATEVER -->
+        {% for space in directory.miscellaneous %}
         <tr>
-            <td><a class="link" href="https://www.goodreads.com/vaivatuta" target="_blank">goodreads.com/vaivatuta</a></td>
+            <td><a class="link" href="{{ space.url }}" target="_blank">{{ space.domain }}</a></td>
             <td></td>
-            <td class="center-align">2018</td>
-            <td class="center-align">bookshelf</td>
-            <td>favorite social media of all time</td>
+            <td class="center-align">{{ space.year }}</td>
+            <td class="center-align">{{ space.function }}</td>
+            <td>{{ space.description }}</td>
         </tr>
-        <tr>
-            <td><a class="link" href="https://www.are.na/vaiva-staugaityte/channels" target="_blank">are.na/vaiva-staugaityte</a></td>
-            <td></td>
-            <td class="center-align">2022</td>
-            <td class="center-align">digital garden</td>
-            <td>bookmark manager, inspiration facilitator, second brain</td>
-        </tr>
-        <tr>
-            <td><a class="link" href="https://www.yourworldoftext.com/~oldhag/" target="_blank">yourworldoftext.com/~oldhag</a></td>
-            <td></td>
-            <td class="center-align">2022</td>
-            <td class="center-align">guestbook</td>
-            <td>leave your mark on my world</td>
-        </tr>
+        {% endfor %}
     </tbody>
 </table>
