@@ -8,11 +8,11 @@
   </head>
 
   <body>
-    <header>{% include 'layouts/partials/header.njk' %}</header>
+    {% include 'layouts/partials/header.njk' %}
 
     <main>{{ content | safe }}</main>
 
-    <header>{% include 'layouts/partials/footer.njk' %}</header>
+    {% include 'layouts/partials/footer.njk' %}
   </body>
 
 </html>

@@ -1,4 +1,6 @@
 table.directory {
+    border: 1px dashed blue;
+
     th.left-align {
         text-align: left;
     }
