@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <title>{{ title }} | lille templeventy</title>
+  </head>
+
+  <body>
+    <header>{% include 'layouts/partials/header.njk' %}</header>
+
+    <main>{{ content | safe }}</main>
+
+    <header>{% include 'layouts/partials/footer.njk' %}</header>
+  </body>
+
+</html>
