@@ -1,17 +1,29 @@
 table.directory {
-    border: 1px dashed blue;
+    border-collapse: collapse;
 
-    th.left-align {
+    .left-align {
         text-align: left;
     }
 
-    td.center-align {
+    .center-align {
         text-align: center;
+    }
+
+    td.description {
+        color: var(--text-light);
+        font-family: var(--mono-font);
+        font-size: 0.875rem;
     }
 
     td,
     th {
-        padding: 0.2rem 0.75rem;
+        padding: 0.75rem 0.75rem;
+        border: 2px dashed var(--accent);
+    }
+
+    .ghost > td,
+    .ghost > th {
+        border: none;
     }
 }
 

@@ -18,7 +18,7 @@
             <td><div class="color-block" style="background-color: {{ site.feel }};"></div></td>
             <td class="center-align">{{ site.year }}</td>
             <td class="center-align">{{ site.function }}</td>
-            <td>{{ site.description }}</td>
+            <td class='description'>{{ site.description }}</td>
         </tr>
         {% endfor %}
 
@@ -37,7 +37,7 @@
             <td></td>
             <td class="center-align">{{ project.year }}</td>
             <td class="center-align">{{ project.function }}</td>
-            <td>{{ project.description }}</td>
+            <td class='description'>{{ project.description }}</td>
         </tr>
         {% endfor %}
 
@@ -56,7 +56,7 @@
             <td></td>
             <td class="center-align">{{ space.year }}</td>
             <td class="center-align">{{ space.function }}</td>
-            <td>{{ space.description }}</td>
+            <td class='description'>{{ space.description }}</td>
         </tr>
         {% endfor %}
     </tbody>
