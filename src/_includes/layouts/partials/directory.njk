@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="/css/directory.css">
+
+<table class="directory">
+    <thead>
+        <tr>
+            <th class="left-align">domain</th>
+            <th>feel</th>
+            <th>year</th>
+            <th>function</th>
+            <th class="left-align">description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for site in directory.subdomains %}
+        <tr>
+            <td><a class="link" href="{{ site.url }}">{{ site.domain }}</a></td>
+            <td><div class="color-block" style="background-color: {{ site.feel }};"></div></td>
+            <td class="center-align">{{ site.year }}</td>
+            <td class="center-align">{{ site.function }}</td>
+            <td class='description'>{{ site.description }}</td>
+        </tr>
+        {% endfor %}
+
+        <!-- ghost!!! -->
+        <tr class="ghost">
+            <td>this</td>
+            <td>is</td>
+            <td>an</td>
+            <td>empty</td>
+            <td>placeholder</td>
+        </tr>
+
+        {% for project in directory.projects %}
+        <tr>
+            <td><a class="link" href="{{ project.url }}">{{ project.domain }}</a></td>
+            <td></td>
+            <td class="center-align">{{ project.year }}</td>
+            <td class="center-align">{{ project.function }}</td>
+            <td class='description'>{{ project.description }}</td>
+        </tr>
+        {% endfor %}
+
+        <!-- ghost!!! -->
+        <tr class="ghost">
+            <td>this</td>
+            <td>is</td>
+            <td>an</td>
+            <td>empty</td>
+            <td>placeholder</td>
+        </tr>
+
+        {% for space in directory.miscellaneous %}
+        <tr>
+            <td><a class="link" href="{{ space.url }}" target="_blank">{{ space.domain }}</a></td>
+            <td></td>
+            <td class="center-align">{{ space.year }}</td>
+            <td class="center-align">{{ space.function }}</td>
+            <td class='description'>{{ space.description }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

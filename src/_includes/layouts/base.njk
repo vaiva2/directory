@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/base.css" />
     <title>where do you want to go?</title>
   </head>
 
   <body>
-    <header>{% include 'layouts/partials/header.njk' %}</header>
+    {% include 'layouts/partials/header.njk' %}
 
     <main>{{ content | safe }}</main>
 
-    <header>{% include 'layouts/partials/footer.njk' %}</header>
+    {% include 'layouts/partials/footer.njk' %}
   </body>
 
 </html>
