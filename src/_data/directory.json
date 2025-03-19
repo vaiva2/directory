@@ -22,7 +22,7 @@
         "feel": "rgb(43, 52, 226)",
         "year": 2025,
         "function": "index of my sites",
-        "description": "you can always find your way back home"
+        "description": "follow the breadcrumbs to find your way back"
       },
       {
         "domain": "snakke.vaiva.space",
@@ -38,30 +38,37 @@
         "feel": "rgb(44, 23, 23)",
         "year": 2025,
         "function": "custom template",
-        "description": "open-source, bare-bones, static-site gen template I made to fit my needs. It's versatile yet simple with no bells and whistles, just the way the digital overseers intended"
+        "description": "open-source, bare-bones, <strong>11ty</strong> template I created to fit my needs. it's versatile yet simple in order to encourage creative and intuitive design choices"
       }
     ],
     "projects": [
+      {
+        "domain": "handprint.io",
+        "url": "https://www.handprint.io/",
+        "year": 2022,
+        "function": "professional network",
+        "description": "<em>@creative_agency</em> // first experience working with <strong>React</strong>"
+      },
       {
         "domain": "qtatax.com",
         "url": "https://qtatax.com/",
         "year": 2023,
         "function": "tax services",
-        "description": "<em>@freelance</em> // recreated existing WordPress site using React in order to prioritize speed and SEO"
+        "description": "<em>@freelance</em> // recreated existing WordPress site using <strong>Gatsby</strong> in order to prioritize speed and SEO"
       },
       {
         "domain": "calcpa.org",
         "url": "https://www.calcpa.org/",
         "year": 2023,
         "function": "accounting, education",
-        "description": "<em>@creative agency</em>"
+        "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
       },
       {
         "domain": "kadena.io",
         "url": "https://www.kadena.io/",
         "year": 2024,
         "function": "blockchain",
-        "description": "<em>@creative agency</em>"
+        "description": "<em>@creative_agency</em> // built using <strong>Next.JS</strong>, <strong>TailwindCSS</strong>, and <strong>Sanity.io</strong>"
       }
     ],
     "miscellaneous": [
