@@ -1,20 +1,16 @@
 /* GLOBAL VARIABLES */
 :root {
-  /* Typography */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
+  --sans-font: "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
-  /* Color palette */
-  --bg: #fff;
+  --bg: rgba(242, 242, 242, 0.25);
   --accent-bg: #f5f7ff;
-  --text: #333;
-  --text-light: rgb(104, 104, 104);
-  --border: #d8dae1;
-  --accent: #000000;
-  --link: #ff0000;
-  --block-tester: rgb(214, 207, 182);
+  --text: #000000;
+  --block-tester: rgb(118, 71, 46);
+  --link: #000000;
+  --link-bg: rgba(255, 255, 255, 0.15);
+
+  --global-radius: 0.3rem;
 }
 
 /* CSS RESET */
@@ -27,8 +23,16 @@ html {
 }
 
 a {
-  color: var(--link);
+  color: var(--text);
   text-decoration: none;
+  background-color: var(--link-bg);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.2rem;
+  transition: all 0.1s;
+
+  &:hover {
+    background-color: rgb(255, 255, 0, 20%);
+  }
 }
 
 body {
@@ -37,11 +41,13 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   min-height: 100vh;
   justify-content: space-between;
   font-size: 1rem;
-  font-family: var(--sans-font);
   font-weight: normal;
+  font-family: var(--sans-font);
+  color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6, p, ol, ul {

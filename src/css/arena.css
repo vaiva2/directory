@@ -1,6 +1,6 @@
 .arena-post {
     display: flex;
-    opacity: 60%;
+    opacity: 80%;
     position: fixed;
     inset: 0;
     width: 100vw;
@@ -12,6 +12,8 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        transform: scale(180%);
+        filter: blur(25px);
+        opacity: 80%;
+        transform: scale(120%);
     }
 }

@@ -1,7 +1,8 @@
 table.directory {
     border-collapse: collapse;
-    background-color: #ffeeee;
-    opacity: 80%;
+    background-color: var(--bg);
+    opacity: 90%;
+    border-radius: var(--global-radius);
 
     .left-align {
         text-align: left;
@@ -11,28 +12,60 @@ table.directory {
         text-align: center;
     }
 
-    td.description {
-        color: var(--text-light);
-        font-family: var(--mono-font);
-        font-size: 0.875rem;
+    .right-align {
+        text-align: right;
+    }
+
+    tbody tr {
+
+        &:hover {
+            td {
+                filter: none;
+            }
+
+            .color-block {
+                opacity: 100%;
+            }
+        }
+
+        td {
+            filter: blur(3px);
+            transition: all 0.75s;
+        }
+
+        td:first-child {
+            filter: none;
+            text-align: right;
+        }
+    }
+
+    thead th{
+        padding-top: 1.5rem;
+    }
+
+    tbody tr:last-of-type td {
+        padding-bottom: 1.5rem;
     }
 
     td,
     th {
-        padding: 0.75rem 0.75rem;
-        border: 1px dotted var(--accent);
+        padding: 0.5rem 0.75rem;
+        font-weight: 400;
     }
 
     .ghost > td,
     .ghost > th {
         border: none;
+        padding: 1rem;
     }
 }
 
 .color-block {
-    height: 1rem;
-    width: 1rem;
-    filter: blur(7px);
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: blur(4px);
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto;
+    opacity: 0%;
+    transition: all 0.75s;
 }

@@ -35,7 +35,7 @@
       {
         "domain": "lilletempleventy.vaiva.space",
         "url": "http://lilletempleventy.vaiva.space/",
-        "feel": "rgb(214, 207, 182)",
+        "feel": "rgb(118, 59, 46)",
         "year": 2025,
         "function": "custom template",
         "description": "open-source, bare-bones, <strong>11ty</strong> template I created to fit my needs. it's versatile yet simple in order to encourage creative and intuitive design choices"
