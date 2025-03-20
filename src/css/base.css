@@ -1,29 +1,30 @@
-  header, footer, main {
-    padding: 2rem 2rem 1rem 2rem;
+  header, footer {
+    padding: 1.5rem;
   }
 
   header, footer {
-    margin: 0 auto;
+    margin: 1rem auto;
+    background-color: var(--bg);
+    opacity: 90%;
+    border-radius: var(--global-radius);
+
+    a {
+      color: var(--link);
+    }
   }
 
   header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: right;
 
     h1 {
-      margin-bottom: 1rem;
-      letter-spacing: 1rem;
+     font-size: 1rem;
     }
 
     .last-updated {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin-top: 0.35rem;
-        color: var(--text-light);
-        font-family: var(--mono-font);
     }
-  }
-
-  footer {
-    letter-spacing: 0.3rem;
   }
