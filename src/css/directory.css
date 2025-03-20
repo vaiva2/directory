@@ -1,5 +1,7 @@
 table.directory {
     border-collapse: collapse;
+    background-color: #ffeeee;
+    opacity: 80%;
 
     .left-align {
         text-align: left;
@@ -18,7 +20,7 @@ table.directory {
     td,
     th {
         padding: 0.75rem 0.75rem;
-        border: 2px dashed var(--accent);
+        border: 1px dotted var(--accent);
     }
 
     .ghost > td,

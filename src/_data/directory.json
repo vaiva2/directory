@@ -3,7 +3,7 @@
       {
         "domain": "vaiva.space",
         "url": "https://vaiva.space/",
-        "feel": "blueviolet",
+        "feel": "rgb(122, 190, 101)",
         "year": 2025,
         "function": "spaceship",
         "description": "always a work in progress, my own slice of a slower, sweeter internet"
@@ -11,7 +11,7 @@
       {
         "domain": "2025present.vaiva.space",
         "url": "https://2025present.vaiva.space/",
-        "feel": "rgb(43, 226, 153)",
+        "feel": "rgb(224, 47, 34)",
         "year": 2025,
         "function": "daily collage archive",
         "description": "digital entropy collages composed of bookmarks, screenshots, grocery lists, doodles, photos"
@@ -19,7 +19,7 @@
       {
         "domain": "directory.vaiva.space",
         "url": "https://directory.vaiva.space/",
-        "feel": "rgb(43, 52, 226)",
+        "feel": "rgb(11, 13, 135)",
         "year": 2025,
         "function": "index of my sites",
         "description": "follow the breadcrumbs to find your way back"
@@ -27,7 +27,7 @@
       {
         "domain": "snakke.vaiva.space",
         "url": "https://snakke.vaiva.space/",
-        "feel": "rgb(226, 43, 43)",
+        "feel": "rgb(243, 117, 7)",
         "year": 2025,
         "function": "mini blog",
         "description": "small-form blogging format for me to post updates on my studies, work, projects, daily life, whatever comes to mind"
@@ -35,7 +35,7 @@
       {
         "domain": "lilletempleventy.vaiva.space",
         "url": "http://lilletempleventy.vaiva.space/",
-        "feel": "rgb(44, 23, 23)",
+        "feel": "rgb(214, 207, 182)",
         "year": 2025,
         "function": "custom template",
         "description": "open-source, bare-bones, <strong>11ty</strong> template I created to fit my needs. it's versatile yet simple in order to encourage creative and intuitive design choices"
