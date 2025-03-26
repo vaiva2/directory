@@ -64,11 +64,25 @@
         "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
       },
       {
+        "domain": "skyroad.com",
+        "url": "https://skyroad.com/",
+        "year": 2024,
+        "function": "asset management",
+        "description": "<em>@creative_agency</em>"
+      },
+      {
         "domain": "kadena.io",
         "url": "https://www.kadena.io/",
         "year": 2024,
         "function": "blockchain",
         "description": "<em>@creative_agency</em> // built using <strong>Next.JS</strong>, <strong>TailwindCSS</strong>, and <strong>Sanity.io</strong>"
+      },
+      {
+        "domain": "jblantonplumbing.com",
+        "url": "https://www.jblantonplumbing.com/",
+        "year": 2024,
+        "function": "plumbing",
+        "description": "<em>@creative_agency</em>"
       }
     ],
     "miscellaneous": [
@@ -77,7 +91,7 @@
         "url": "https://www.goodreads.com/vaivatuta",
         "year": 2018,
         "function": "bookshelf",
-        "description": "my favorite nook of the social web"
+        "description": "my favorite nook of social media"
       },
       {
         "domain": "are.na/vaiva-staugaityte",
