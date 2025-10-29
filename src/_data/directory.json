@@ -43,32 +43,11 @@
   ],
   "projects": [
     {
-      "domain": "handprint.io",
-      "url": "https://www.handprint.io/",
-      "year": 2022,
-      "function": "professional network",
-      "description": "<em>@creative_agency</em> // first experience working with <strong>React</strong>"
-    },
-    {
-      "domain": "bcvsocial.com",
-      "url": "https://bcvsocial.com/",
-      "year": 2022,
-      "function": "hospitality",
-      "description": "<em>@creative_agency</em>"
-    },
-    {
-      "domain": "qtatax.com",
-      "url": "https://qtatax.com/",
-      "year": 2023,
-      "function": "tax services",
-      "description": "<em>@freelance</em> // recreated existing WordPress site using <strong>Gatsby</strong> in order to prioritize speed and SEO"
-    },
-    {
-      "domain": "calcpa.org",
-      "url": "https://www.calcpa.org/",
-      "year": 2023,
-      "function": "accounting, education",
-      "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
+      "domain": "simonganshorn.com",
+      "url": "https://www.simonganshorn.com/",
+      "year": 2025,
+      "function": "portfolio site",
+      "description": "<em>@freelance</em> // space for a fine artist's display of available and archived artworks, communication, and newsletter"
     },
     {
       "domain": "skyroad.com",
@@ -97,36 +76,64 @@
       "year": 2024,
       "function": "industrial technology",
       "description": "<em>@creative_agency</em> // webshop synthesizing data from multiple databases, including <strong>WordPress</strong> as a headless CMS"
+    },
+    {
+      "domain": "qtatax.com",
+      "url": "https://qtatax.com/",
+      "year": 2023,
+      "function": "tax services",
+      "description": "<em>@freelance</em> // recreated existing WordPress site using <strong>Gatsby</strong> in order to prioritize speed and SEO"
+    },
+    {
+      "domain": "calcpa.org",
+      "url": "https://www.calcpa.org/",
+      "year": 2023,
+      "function": "accounting, education",
+      "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
+    },
+    {
+      "domain": "handprint.io",
+      "url": "https://www.handprint.io/",
+      "year": 2022,
+      "function": "professional network",
+      "description": "<em>@creative_agency</em> // first experience working with <strong>React</strong>"
+    },
+    {
+      "domain": "bcvsocial.com",
+      "url": "https://bcvsocial.com/",
+      "year": 2022,
+      "function": "hospitality",
+      "description": "<em>@creative_agency</em>"
     }
   ],
   "miscellaneous": [
     {
-      "domain": "instagram.com/vaivastaugaityte",
-      "url": "https://www.instagram.com/vaivastaugaityte/",
-      "year": 2018,
-      "function": "camera roll dump",
-      "description": "communication method meets analog photo archive"
-    },
-    {
-      "domain": "goodreads.com/vaivatuta",
-      "url": "https://www.goodreads.com/vaiva2",
-      "year": 2018,
-      "function": "bookshelf",
-      "description": "my favorite nook of social media"
-    },
-    {
-      "domain": "are.na/vaiva-stau",
+      "domain": "are.na,",
       "url": "https://www.https://www.are.na/vaiva-staugaityte",
       "year": 2022,
       "function": "digital garden",
       "description": "bookmark manager, inspiration facilitator, second brain"
     },
     {
-      "domain": "yourworldoftext.com/~oldhag",
+      "domain": "world of text",
       "url": "https://www.yourworldoftext.com/~oldhag/",
       "year": 2022,
       "function": "guestbook",
       "description": "leave your mark on my world"
+    },
+    {
+      "domain": "instagram",
+      "url": "https://www.instagram.com/vaivastaugaityte/",
+      "year": 2018,
+      "function": "camera roll dump",
+      "description": "communication method meets analog photo archive"
+    },
+    {
+      "domain": "goodreads",
+      "url": "https://www.goodreads.com/vaiva2",
+      "year": 2018,
+      "function": "bookshelf",
+      "description": "my favorite nook of social media"
     }
   ]
 }

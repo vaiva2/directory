@@ -10,7 +10,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for site in directory.subdomains | sort(attribute='year') | reverse %}
+            {% for site in directory.subdomains %}
                 <tr>
                     <td>
                         <a class="link" href="{{ site.url }}">{{ site.domain }}</a>
@@ -31,7 +31,7 @@
                 <td>empty</td>
                 <td>placeholder</td>
             </tr>
-            {% for project in directory.projects | sort(attribute='year') | reverse %}
+            {% for project in directory.projects %}
                 <tr>
                     <td>
                         <a class="link" href="{{ project.url }}">{{ project.domain }}</a>
@@ -50,7 +50,7 @@
                 <td>empty</td>
                 <td>placeholder</td>
             </tr>
-            {% for space in directory.miscellaneous | sort(attribute='year') | reverse %}
+            {% for space in directory.miscellaneous %}
                 <tr>
                     <td>
                         <a class="link" href="{{ space.url }}" target="_blank">{{ space.domain }}</a>
