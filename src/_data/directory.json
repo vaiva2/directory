@@ -1,132 +1,132 @@
 {
-    "subdomains": [
-      {
-        "domain": "vaiva.space",
-        "url": "https://vaiva.space/",
-        "feel": "rgb(122, 190, 101)",
-        "year": 2025,
-        "function": "spaceship",
-        "description": "always a work in progress, my own slice of a slower, sweeter internet"
-      },
-      {
-        "domain": "2025present.vaiva.space",
-        "url": "https://2025present.vaiva.space/",
-        "feel": "rgb(224, 47, 34)",
-        "year": 2025,
-        "function": "daily collage archive",
-        "description": "digital entropy collages composed of bookmarks, screenshots, grocery lists, doodles, photos"
-      },
-      {
-        "domain": "directory.vaiva.space",
-        "url": "https://directory.vaiva.space/",
-        "feel": "rgb(11, 13, 135)",
-        "year": 2025,
-        "function": "index of my sites",
-        "description": "follow the breadcrumbs to find your way back"
-      },
-      {
-        "domain": "snakke.vaiva.space",
-        "url": "https://snakke.vaiva.space/",
-        "feel": "rgb(243, 117, 7)",
-        "year": 2025,
-        "function": "mini blog",
-        "description": "small-form blogging format for me to post updates on my studies, work, projects, daily life, whatever comes to mind"
-      },
-      {
-        "domain": "lilletempleventy.vaiva.space",
-        "url": "http://lilletempleventy.vaiva.space/",
-        "feel": "rgb(118, 59, 46)",
-        "year": 2025,
-        "function": "custom template",
-        "description": "open-source, bare-bones, <strong>11ty</strong> template I created to fit my needs. it's versatile yet simple in order to encourage creative and intuitive design choices"
-      }
-    ],
-    "projects": [
-      {
-        "domain": "handprint.io",
-        "url": "https://www.handprint.io/",
-        "year": 2022,
-        "function": "professional network",
-        "description": "<em>@creative_agency</em> // first experience working with <strong>React</strong>"
-      },
-      {
-        "domain": "bcvsocial.com",
-        "url": "https://bcvsocial.com/",
-        "year": 2022,
-        "function": "hospitality",
-        "description":"<em>@creative_agency</em>"
-      },
-      {
-        "domain": "qtatax.com",
-        "url": "https://qtatax.com/",
-        "year": 2023,
-        "function": "tax services",
-        "description": "<em>@freelance</em> // recreated existing WordPress site using <strong>Gatsby</strong> in order to prioritize speed and SEO"
-      },
-      {
-        "domain": "calcpa.org",
-        "url": "https://www.calcpa.org/",
-        "year": 2023,
-        "function": "accounting, education",
-        "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
-      },
-      {
-        "domain": "skyroad.com",
-        "url": "https://skyroad.com/",
-        "year": 2024,
-        "function": "asset management",
-        "description": "<em>@creative_agency</em>"
-      },
-      {
-        "domain": "kadena.io",
-        "url": "https://www.kadena.io/",
-        "year": 2024,
-        "function": "blockchain",
-        "description": "<em>@creative_agency</em> // built using <strong>Next.JS</strong>, <strong>TailwindCSS</strong>, and <strong>Sanity.io</strong>"
-      },
-      {
-        "domain": "jblantonplumbing.com",
-        "url": "https://www.jblantonplumbing.com/",
-        "year": 2024,
-        "function": "plumbing",
-        "description": "<em>@creative_agency</em>"
-      },
-      {
-        "domain": "davco.com",
-        "url": "https://davco.com/",
-        "year": 2024,
-        "function": "industrial technology",
-        "description": "<em>@creative_agency</em> // webshop synthesizing data from multiple databases, including <strong>WordPress</strong> as a headless CMS"
-      }
-    ],
-    "miscellaneous": [
-      {
-        "domain": "instagram.com/vaivatuta",
-        "url": "https://www.instagram.com/vaivatuta/",
-        "year": 2018,
-        "function": "camera roll dump",
-        "description": "communication method meets selfie archive"      },
-      {
-        "domain": "goodreads.com/vaivatuta",
-        "url": "https://www.goodreads.com/vaivatuta",
-        "year": 2018,
-        "function": "bookshelf",
-        "description": "my favorite nook of social media"
-      },
-      {
-        "domain": "are.na/vaiva-stau",
-        "url": "https://www.are.na/vaiva-stau/channels",
-        "year": 2022,
-        "function": "digital garden",
-        "description": "bookmark manager, inspiration facilitator, second brain"
-      },
-      {
-        "domain": "yourworldoftext.com/~oldhag",
-        "url": "https://www.yourworldoftext.com/~oldhag/",
-        "year": 2022,
-        "function": "guestbook",
-        "description": "leave your mark on my world"
-      }
-    ]
-  }
-  
+  "subdomains": [
+    {
+      "domain": "vaiva.space",
+      "url": "https://vaiva.space/",
+      "feel": "rgb(122, 190, 101)",
+      "year": 2025,
+      "function": "spaceship",
+      "description": "always a work in progress, my own slice of a slower, sweeter internet"
+    },
+    {
+      "domain": "2025present.vaiva.space",
+      "url": "https://2025present.vaiva.space/",
+      "feel": "rgb(224, 47, 34)",
+      "year": 2025,
+      "function": "daily collage archive",
+      "description": "digital entropy collages composed of bookmarks, screenshots, grocery lists, doodles, photos"
+    },
+    {
+      "domain": "directory.vaiva.space",
+      "url": "https://directory.vaiva.space/",
+      "feel": "rgb(11, 13, 135)",
+      "year": 2025,
+      "function": "index of my sites",
+      "description": "follow the breadcrumbs to find your way back"
+    },
+    {
+      "domain": "snakke.vaiva.space",
+      "url": "https://snakke.vaiva.space/",
+      "feel": "rgb(243, 117, 7)",
+      "year": 2025,
+      "function": "mini blog",
+      "description": "small-form blogging format for me to post updates on my studies, work, projects, daily life, whatever comes to mind"
+    },
+    {
+      "domain": "lilletempleventy.vaiva.space",
+      "url": "http://lilletempleventy.vaiva.space/",
+      "feel": "rgb(118, 59, 46)",
+      "year": 2025,
+      "function": "custom template",
+      "description": "open-source, bare-bones, <strong>11ty</strong> template I created to fit my needs. it's versatile yet simple in order to encourage creative and intuitive design choices"
+    }
+  ],
+  "projects": [
+    {
+      "domain": "handprint.io",
+      "url": "https://www.handprint.io/",
+      "year": 2022,
+      "function": "professional network",
+      "description": "<em>@creative_agency</em> // first experience working with <strong>React</strong>"
+    },
+    {
+      "domain": "bcvsocial.com",
+      "url": "https://bcvsocial.com/",
+      "year": 2022,
+      "function": "hospitality",
+      "description": "<em>@creative_agency</em>"
+    },
+    {
+      "domain": "qtatax.com",
+      "url": "https://qtatax.com/",
+      "year": 2023,
+      "function": "tax services",
+      "description": "<em>@freelance</em> // recreated existing WordPress site using <strong>Gatsby</strong> in order to prioritize speed and SEO"
+    },
+    {
+      "domain": "calcpa.org",
+      "url": "https://www.calcpa.org/",
+      "year": 2023,
+      "function": "accounting, education",
+      "description": "<em>@creative_agency</em> // solo project, my first experience using <strong>TypeScript</strong>"
+    },
+    {
+      "domain": "skyroad.com",
+      "url": "https://skyroad.com/",
+      "year": 2024,
+      "function": "asset management",
+      "description": "<em>@creative_agency</em>"
+    },
+    {
+      "domain": "kadena.io",
+      "url": "https://www.kadena.io/",
+      "year": 2024,
+      "function": "blockchain",
+      "description": "<em>@creative_agency</em> // built using <strong>Next.JS</strong>, <strong>TailwindCSS</strong>, and <strong>Sanity.io</strong>"
+    },
+    {
+      "domain": "jblantonplumbing.com",
+      "url": "https://www.jblantonplumbing.com/",
+      "year": 2024,
+      "function": "plumbing",
+      "description": "<em>@creative_agency</em>"
+    },
+    {
+      "domain": "davco.com",
+      "url": "https://davco.com/",
+      "year": 2024,
+      "function": "industrial technology",
+      "description": "<em>@creative_agency</em> // webshop synthesizing data from multiple databases, including <strong>WordPress</strong> as a headless CMS"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "domain": "instagram.com/vaivastaugaityte",
+      "url": "https://www.instagram.com/vaivastaugaityte/",
+      "year": 2018,
+      "function": "camera roll dump",
+      "description": "communication method meets analog photo archive"
+    },
+    {
+      "domain": "goodreads.com/vaivatuta",
+      "url": "https://www.goodreads.com/vaiva2",
+      "year": 2018,
+      "function": "bookshelf",
+      "description": "my favorite nook of social media"
+    },
+    {
+      "domain": "are.na/vaiva-stau",
+      "url": "https://www.https://www.are.na/vaiva-staugaityte",
+      "year": 2022,
+      "function": "digital garden",
+      "description": "bookmark manager, inspiration facilitator, second brain"
+    },
+    {
+      "domain": "yourworldoftext.com/~oldhag",
+      "url": "https://www.yourworldoftext.com/~oldhag/",
+      "year": 2022,
+      "function": "guestbook",
+      "description": "leave your mark on my world"
+    }
+  ]
+}
