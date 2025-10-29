@@ -1,7 +1,22 @@
-# dependencies installed by npm
+# Dependencies
+node_modules/
 
-node_modules
+# Build outputs
+dist/
+build/
 
-# build artefacts
+# Environment variables
+.env
+.env.local
 
-public
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
